@@ -1,7 +1,7 @@
 Code book
-=========
+========
 
-# Introduction
+## Introduction
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals measured by the Samsung Galaxy S. These time domain signals (labeled "time" in our dataset) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (labeled "body", and "gravity" in our dataset) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -9,7 +9,17 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing variables in the frequency domain (labeled "frequency").
 
-# Terms explained
+## Notes:
+
+Features are normalized and bounded within [-1,1].
+
+## For each record in the tidy dataset it is provided:
+
+- An identifier of the subject who carried out the experiment.
+- An activity label.
+- A 66-feature vector with averages of the mean and standard deviation of each measurement calculated by subject and activity
+
+## Terms explained
 
 The following terms are used in the measurement names, and clarified for your understanding:
 
