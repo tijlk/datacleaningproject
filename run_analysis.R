@@ -80,4 +80,4 @@ tidydata <- ddply(mergedData, .(subject,activity), numcolwise(mean))
 head(tidydata[,1:5],n=12)
 
 # Save this data frame as a csv-file
-write.csv(file="tidydata.csv",x=tidydata)
+write.table(tidydata,file="tidydata.txt")

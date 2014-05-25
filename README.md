@@ -35,7 +35,7 @@ This project contains only one script, called run_analysis.R, that does the foll
 
 - 'CodeBook.md': shows information about the measurements and the variables in the tidy data set.
 
-- 'tidydata.csv': the resulting tidy data set with averages of the measurements by subject and activity
+- 'tidydata.txt': the resulting tidy data set as a space-delimited file with averages of the measurements by subject and activity
 
 ## References:
 
